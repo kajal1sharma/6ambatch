@@ -9,8 +9,31 @@ class FirstProgram{
 
     public static void main(String[] args) {
 
+
+
+
+        // primitive daata types => language provided data types
+        // byte, short, int , long, float, double, boolean , char
+
+        // char ch = '8';
+        
+        // mapping => *,),9,k,h,...... 0=48
+
+        // int firstNumber ;
+        // firstNumber= 890;
+
+        // short num = 890;
+        //byte num2 =890;
+        // boolean result = true;
+        // System.out.println(result);
+        // result = false;
+        // System.out.println(result);
+
         // variables are used to store the data 
         // data => number, non numeric
+        // non numeric => boolean , char
+        // boolean => true , false
+        // char => 'a','8','*','^','('
         // numeric => floating integral
         // floating => 67.98,755.9776 (float, duoble)
         // System.out.println(Float.MAX_VALUE);
