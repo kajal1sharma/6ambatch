@@ -10,6 +10,8 @@ class FirstProgram{
     public static void main(String[] args) {
 
 
+         char isThisValid = 'p';
+         //variables = containers in which we can store data
 
 
         // primitive daata types => language provided data types
