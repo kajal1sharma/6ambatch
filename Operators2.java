@@ -8,6 +8,21 @@ public class Operators2 {
         // b true/false
         // c true/false
 
+        int a=23;
+        int b=45, c=25;
+
+        boolean result = a>b && a>c;
+        System.out.println("is a the greatest value : ??  " +result);
+        boolean result2 = b>a && b>c;
+        System.out.println("is b the greatest value : ??  " +result2);
+        boolean result3 = c>b && c>a;
+        System.out.println("is c the greatest value : ??  " +result3);
+
+        // int b,c;
+        // b=45;
+        // c=25;
+
+
         // logical operators
         // && || !  input : boolean  output :boolean 
         //  !operand !true= false , !false= true 
