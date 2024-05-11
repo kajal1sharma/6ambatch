@@ -1,10 +1,16 @@
+import java.util.Scanner;
+
 public class Conditionals {
     public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
 
-        boolean rain =false;
-        boolean umbrella = true;
-        boolean raincoat = false;
+        System.out.println("is it raining??");
+        boolean rain =sc.nextBoolean();
+        System.out.println("Do you have an umbrella??");
+        boolean umbrella = sc.nextBoolean();
+        System.out.println("Do you have a raincoat??");
+        boolean raincoat = sc.nextBoolean();
 
         if(rain ==true && umbrella==true){
             System.out.println("Its raining and you can go out with an umbrella");
