@@ -3,35 +3,47 @@ import java.util.Scanner;
 class Switch{
     public static void main(String[] args) {
         
+
+        // ternary operator 
+
+        int num =45;
+
+        String result ;
+        result = num%2==0 ? "even" : "odd";
+        // type = operand1 ? operand2 : operand3
+        // operand1 =expression => true/false
+        // operand2 operand3 => type same
+
+
         // calculator
 
-        int a =90;
-        int b=80;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter + ,-, /,* ");
-        char op = sc.next().charAt(0);
-        // string => collection of chars
-        // char, byte 
-        // int a = sc.nextInt();
-        // float b = sc.nextFloat();
+        // int a =90;
+        // int b=80;
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter + ,-, /,* ");
+        // char op = sc.next().charAt(0);
+        // // string => collection of chars
+        // // char, byte 
+        // // int a = sc.nextInt();
+        // // float b = sc.nextFloat();
 
-        System.out.println(op);
-        int result =0;
-        switch(op){
-            case '+': result = a+b;
-                     System.out.println(result);
-                     break;
-            case '-': result = a-b;
-                        System.out.println(result);
-                        break;
-            case '*': result = a*b;
-                        System.out.println(result);
-                        break;
-            case '/': result = a/b;
-                        System.out.println(result);
-                        break;
-            default : System.out.println("invalid input");
-        }
+        // System.out.println(op);
+        // int result =0;
+        // switch(op){
+        //     case '+': result = a+b;
+        //              System.out.println(result);
+        //              break;
+        //     case '-': result = a-b;
+        //                 System.out.println(result);
+        //                 break;
+        //     case '*': result = a*b;
+        //                 System.out.println(result);
+        //                 break;
+        //     case '/': result = a/b;
+        //                 System.out.println(result);
+        //                 break;
+        //     default : System.out.println("invalid input");
+        // }
 
 
         // int a=10;
